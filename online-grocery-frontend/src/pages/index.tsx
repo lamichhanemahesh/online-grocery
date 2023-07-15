@@ -1,11 +1,8 @@
-import React from 'react';
-import Compo from '@/src/components/compo';
+import Header from '@/components/header/Header';
 export default function Home() {
   return (
-    <div>
-      <h1>Online Grocery App</h1>
-      <Compo/>
-    </div>
-    
+    <>
+      <Header/>
+    </> 
   )
 }
